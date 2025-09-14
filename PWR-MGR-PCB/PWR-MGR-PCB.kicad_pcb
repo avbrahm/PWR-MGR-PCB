@@ -780,6 +780,7 @@
 			(at 0 5 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e61cdf24-b8a9-4a88-b144-dbe20c82e4fd")
 			(effects
 				(font
@@ -2620,6 +2621,7 @@
 		(property "Value" "Conn_01x01_Pin"
 			(at 0 2.77 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "02bce0aa-1f67-499e-a907-03ebacf8bdd5")
 			(effects
 				(font
@@ -5983,8 +5985,8 @@
 		)
 	)
 	(gr_line
-		(start 127 66.04)
-		(end 127 111.76)
+		(start 141.3256 66.04)
+		(end 141.3256 111.76)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -5993,8 +5995,8 @@
 		(uuid "3b4ef938-cbbe-47da-86c4-e46ce7f7b0cb")
 	)
 	(gr_line
-		(start 177.8 66.04)
-		(end 127 66.04)
+		(start 173.3296 66.04)
+		(end 141.3256 66.04)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6003,8 +6005,8 @@
 		(uuid "455ecd88-2424-422a-beaf-ce6e09c927aa")
 	)
 	(gr_line
-		(start 127 111.76)
-		(end 177.8 111.76)
+		(start 141.3256 111.76)
+		(end 173.3296 111.76)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6013,8 +6015,8 @@
 		(uuid "57e23e56-1a51-461e-b351-95ea6b21b5df")
 	)
 	(gr_line
-		(start 177.8 111.76)
-		(end 177.8 66.04)
+		(start 173.3296 111.76)
+		(end 173.3296 66.04)
 		(stroke
 			(width 0.05)
 			(type default)
