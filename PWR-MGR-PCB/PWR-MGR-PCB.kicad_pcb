@@ -1098,7 +1098,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2146e01d-7c63-4b91-8491-ec9dffacdd09")
-		(at 182.384 79.21)
+		(at 164.9495 99.568)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -2718,7 +2718,7 @@
 	(footprint "BQ24074RGTR:QFN50P300X300X100-17N"
 		(layer "F.Cu")
 		(uuid "75bd0931-0ce1-4a25-9cb9-ec4bbf79167c")
-		(at 200.164 94.165)
+		(at 165.239 84.493)
 		(property "Reference" "U3"
 			(at -0.165 -3.24 0)
 			(layer "F.SilkS")
@@ -3919,7 +3919,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "acd31ef8-e102-4f48-bc6d-6497ce8e3c88")
-		(at 203.304 88.56)
+		(at 148.5955 83.881)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -4272,7 +4272,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b866aefb-27ce-4aee-bb1f-1291e5ff3f5a")
-		(at 182.384 76.26)
+		(at 149.5825 99.568)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -4670,7 +4670,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "d3c4433e-276e-45f6-8b51-d7d5b8fc3c75")
-		(at 203.304 83.935)
+		(at 157.3585 89.85)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -5033,7 +5033,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "e42c7ac9-0cac-4652-9023-35c5e1a23af0")
-		(at 156.369 94.869)
+		(at 157.385 97.028)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D4"
