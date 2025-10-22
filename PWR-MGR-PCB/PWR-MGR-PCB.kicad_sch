@@ -6348,7 +6348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFE18SAN1R0ME0L:INDC1608X80N"
+		(property "Footprint" "DFE18SAN1ROMEO Inductor:INDC1608X80N"
 			(at 207.01 85.09 0)
 			(effects
 				(font
@@ -6898,7 +6898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DSBGA8_YBG_TEX"
+		(property "Footprint" "TPS631011 - Buck Boost Converter:DSBGA8_YBG_TEX"
 			(at 186.69 58.42 0)
 			(effects
 				(font

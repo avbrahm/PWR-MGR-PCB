@@ -1,4 +1,4 @@
-26440281282916610
+26447324310470239
 ABS25_32_768KHZ_4_T
 XTAL_ABS25-32.768KHZ-4-T
 
@@ -59233,6 +59233,13 @@ ceramic
 0
 3
 3
+DFE18SAN1ROMEO Inductor
+INDC1608X80N
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -98608,6 +98615,27 @@ Logo WEEE
 0
 0
 0
+TPS631011 - Buck Boost Converter
+DSBGA8_YBG_TEX
+
+TPS631011YBGR 
+0
+8
+8
+TPS631011 - Buck Boost Converter
+DSBGA8_YBG_TEX-L
+
+TPS631011YBGR 
+0
+8
+8
+TPS631011 - Buck Boost Converter
+DSBGA8_YBG_TEX-M
+
+TPS631011YBGR 
+0
+8
+8
 TSX_3225_16_0000MF18X_AC0
 XTAL_TSX-3225_16.0000MF18X-AC0
 
