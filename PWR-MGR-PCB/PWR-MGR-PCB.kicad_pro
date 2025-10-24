@@ -674,6 +674,14 @@
     [
       "16b2e4e2-6399-42b6-a8e6-a11780888710",
       "Root"
+    ],
+    [
+      "9a4ce8ea-f122-49e0-9f9a-908eb36e3c79",
+      "Output Ports"
+    ],
+    [
+      "22c81f0d-b55e-478c-9d03-7b0014cba463",
+      "PWR-MGR-01"
     ]
   ],
   "text_variables": {}
