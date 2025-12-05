@@ -1,4 +1,4 @@
-26447325137530080
+26449090042134169
 ABS25_32_768KHZ_4_T
 XTAL_ABS25-32.768KHZ-4-T
 
@@ -27,6 +27,13 @@ QFN50P300X300X100-17N
 0
 22
 22
+BQ24075
+QFN16
+<b>RTE (S-PQFP-N16)</b> 3x3 mm<p>Source: www.ti.com .. tpa6132a2 direct path stereo $.65.pdf
+
+0
+17
+17
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
