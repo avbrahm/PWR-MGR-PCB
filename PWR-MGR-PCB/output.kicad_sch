@@ -577,6 +577,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
@@ -633,6 +642,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " B2B-XH-A"
 			(at 173.99 81.28 0)
 			(effects
 				(font
@@ -703,6 +721,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -841,6 +868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
@@ -897,6 +933,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TMM-102-02-T-S"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -967,6 +1012,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 92.71 105.41 0)
 			(effects
 				(font
