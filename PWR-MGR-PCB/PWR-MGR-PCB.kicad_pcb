@@ -99,9 +99,8 @@
 	(net 19 "Net-(U6-LX2)")
 	(net 20 "Net-(U6-LX1)")
 	(net 21 "Net-(U1-TS)")
-	(net 22 "unconnected-(U1-OUT-Pad11)")
-	(net 23 "Net-(U1-PGOOD)")
-	(net 24 "Net-(U1-CHG)")
+	(net 22 "Net-(U1-PGOOD)")
+	(net 23 "Net-(U1-CHG)")
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "06fea3a4-1d4d-4f67-9cee-198b41161725")
@@ -1696,7 +1695,7 @@
 			(at -0.825 0)
 			(size 0.8 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 23 "Net-(U1-PGOOD)")
+			(net 22 "Net-(U1-PGOOD)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "4f5418b4-29c7-42e8-a13e-30ad9abaebd6")
@@ -2181,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "USB4105-GF-A"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3345,7 +3344,7 @@
 			(at -0.825 0)
 			(size 0.8 0.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 24 "Net-(U1-CHG)")
+			(net 23 "Net-(U1-CHG)")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
 			(uuid "483159cf-9b7c-46b2-9863-9b24dae22c0d")
@@ -4303,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "  USBLC6-2SC6"
+		(property "Manufacturer Part Number" "USBLC6-2SC6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5807,7 +5806,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TMM-102-02-T-S"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7753,7 +7752,7 @@
 			(size 0.28 0.85)
 			(layers "F.Cu")
 			(roundrect_rratio 0.375)
-			(net 23 "Net-(U1-PGOOD)")
+			(net 22 "Net-(U1-PGOOD)")
 			(pinfunction "PGOOD")
 			(pintype "bidirectional")
 			(uuid "9e326a86-976e-4106-8580-9e2e35ee4e45")
@@ -7773,7 +7772,7 @@
 			(size 0.85 0.28)
 			(layers "F.Cu")
 			(roundrect_rratio 0.375)
-			(net 24 "Net-(U1-CHG)")
+			(net 23 "Net-(U1-CHG)")
 			(pinfunction "CHG")
 			(pintype "bidirectional")
 			(uuid "2d841d93-320a-4326-b54f-9774e0355712")
@@ -7793,9 +7792,9 @@
 			(size 0.85 0.28)
 			(layers "F.Cu")
 			(roundrect_rratio 0.375)
-			(net 22 "unconnected-(U1-OUT-Pad11)")
+			(net 1 "VCC_BMS")
 			(pinfunction "OUT")
-			(pintype "power_out+no_connect")
+			(pintype "power_out")
 			(uuid "6dfc28ca-57ef-4139-826d-7412aa110543")
 		)
 		(pad "12" smd roundrect
@@ -9982,7 +9981,7 @@
 		(end 164.84 103.005)
 		(width 0.3)
 		(layer "F.Cu")
-		(net 23)
+		(net 22)
 		(uuid "01997a85-1a6f-4897-8115-58cb0c5c35d5")
 	)
 	(segment
@@ -9990,7 +9989,7 @@
 		(end 164.405 101.225)
 		(width 0.3)
 		(layer "F.Cu")
-		(net 23)
+		(net 22)
 		(uuid "0eff6396-f08d-4e04-8617-b0dca9c66553")
 	)
 	(segment
@@ -9998,7 +9997,7 @@
 		(end 163.5 101.225)
 		(width 0.3)
 		(layer "F.Cu")
-		(net 23)
+		(net 22)
 		(uuid "293f1b92-861f-4150-94d3-fe3685fde0bb")
 	)
 	(segment
@@ -10006,7 +10005,7 @@
 		(end 164.84 101.66)
 		(width 0.3)
 		(layer "F.Cu")
-		(net 23)
+		(net 22)
 		(uuid "f591819c-59f0-4655-bf18-515d41d1b94e")
 	)
 	(segment
@@ -10014,7 +10013,7 @@
 		(end 162.775 100)
 		(width 0.3)
 		(layer "F.Cu")
-		(net 24)
+		(net 23)
 		(uuid "45263778-1a8f-456a-8552-c061f97af672")
 	)
 	(segment
@@ -10022,7 +10021,7 @@
 		(end 165.345 100)
 		(width 0.3)
 		(layer "F.Cu")
-		(net 24)
+		(net 23)
 		(uuid "d3f51920-51b1-4581-9e25-b30a16130096")
 	)
 	(zone
