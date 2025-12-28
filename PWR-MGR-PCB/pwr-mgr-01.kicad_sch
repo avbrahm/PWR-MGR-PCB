@@ -3933,6 +3933,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 157.48) (xy 114.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251e97e2-214b-473a-baa2-6acc481c813a")
+	)
+	(wire
+		(pts
 			(xy 52.07 167.64) (xy 54.61 167.64)
 		)
 		(stroke
@@ -4723,7 +4733,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 157.48) (xy 114.3 157.48)
+			(xy 102.87 157.48) (xy 104.14 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7149,6 +7159,82 @@
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0a705e9-0de8-43e4-b18f-5487771e13db")
+		(property "Reference" "R7"
+			(at 107.95 159.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 107.95 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 107.95 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCU0805MD1002BP500 "
+			(at 107.95 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8742a71-34e0-4370-9259-06511cb15862")
+		)
+		(pin "2"
+			(uuid "2945e3c9-f881-4c73-8e75-928a9c302e0d")
+		)
+		(instances
+			(project "PWR-MGR-PCB"
+				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
+					(reference "R7")
 					(unit 1)
 				)
 			)
