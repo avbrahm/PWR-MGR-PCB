@@ -367,7 +367,7 @@
 	)
 	(rectangle
 		(start 86.36 95.25)
-		(end 138.43 120.65)
+		(end 138.43 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -389,6 +389,18 @@
 		)
 		(uuid 5a56f0dc-b9ca-44d6-abd8-b6879aa4717a)
 	)
+	(rectangle
+		(start 138.43 95.25)
+		(end 195.58 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8226c424-cd04-4178-824b-0617b71f4dc6)
+	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 112.776 99.314 0)
@@ -398,6 +410,16 @@
 			)
 		)
 		(uuid "47659136-9c18-4875-aff1-0890c65e7657")
+	)
+	(text "Battery Power Port"
+		(exclude_from_sim no)
+		(at 164.846 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "601163ab-9cb0-43f1-9d33-cd2698b65676")
 	)
 	(text "PWR MGR Board specific features"
 		(exclude_from_sim no)
@@ -419,7 +441,7 @@
 		)
 		(uuid "c8181577-44e5-4b4a-8ee7-988bc6165c05")
 	)
-	(text "USB Data Lines"
+	(text "USB Data Output"
 		(exclude_from_sim no)
 		(at 112.268 68.326 0)
 		(effects
@@ -428,6 +450,16 @@
 			)
 		)
 		(uuid "f14a87e4-7831-4e63-ae0d-31593e1a1f2a")
+	)
+	(wire
+		(pts
+			(xy 152.4 113.03) (xy 168.91 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f8cf00-706a-4c91-b6cf-ccc21def8cb8")
 	)
 	(wire
 		(pts
@@ -471,6 +503,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f02ef27-876f-4abf-9b65-29ad2c95652d")
+	)
+	(wire
+		(pts
 			(xy 109.22 81.28) (xy 109.22 80.01)
 		)
 		(stroke
@@ -489,14 +531,36 @@
 		)
 		(uuid "c740426a-90ac-4ff7-acc1-86f4137acca2")
 	)
-	(hierarchical_label "3.3V"
+	(hierarchical_label "BAT+"
 		(shape input)
-		(at 154.94 78.74 90)
+		(at 152.4 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
+		)
+		(uuid "43cee5f3-a14c-4419-8a58-0b32e9c06af8")
+	)
+	(hierarchical_label "BAT-"
+		(shape input)
+		(at 152.4 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "567b1d14-341e-4939-9ed8-8c8e7626d5a9")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 154.94 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "8a6450a5-5725-4334-9baa-a2c337951611")
 	)
@@ -524,7 +588,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 116.84 105.41 0)
+		(at 116.84 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -533,7 +597,7 @@
 		(fields_autoplaced yes)
 		(uuid "12b358a4-0f2a-4ee6-a11d-fbe7901279eb")
 		(property "Reference" "H7"
-			(at 119.38 104.1399 0)
+			(at 119.38 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +606,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 119.38 106.6799 0)
+			(at 119.38 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +615,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 116.84 105.41 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 105.41 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -569,7 +633,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 116.84 105.41 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,7 +642,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 116.84 105.41 0)
+			(at 116.84 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +740,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 92.71 111.76 0)
+		(at 92.71 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -685,7 +749,7 @@
 		(fields_autoplaced yes)
 		(uuid "29e3e784-4ecf-48e5-be93-427aac2dea20")
 		(property "Reference" "H6"
-			(at 95.25 110.4899 0)
+			(at 95.25 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +758,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 95.25 113.0299 0)
+			(at 95.25 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +767,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 92.71 111.76 0)
+			(at 92.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,7 +776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 111.76 0)
+			(at 92.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +785,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 92.71 111.76 0)
+			(at 92.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +794,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 92.71 111.76 0)
+			(at 92.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +879,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 116.84 111.76 0)
+		(at 116.84 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -824,7 +888,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a854978-1cba-467f-a941-8c338ea72e63")
 		(property "Reference" "H8"
-			(at 119.38 110.4899 0)
+			(at 119.38 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +897,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 119.38 113.0299 0)
+			(at 119.38 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +906,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 116.84 111.76 0)
+			(at 116.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 111.76 0)
+			(at 116.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +924,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 116.84 111.76 0)
+			(at 116.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +933,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 116.84 111.76 0)
+			(at 116.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,6 +945,85 @@
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 173.99 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "871a7468-15fa-49df-a546-cde531b28081")
+		(property "Reference" "J2"
+			(at 175.26 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 175.26 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " B2B-XH-A"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab33da62-740c-42ee-8855-1ce2f2a3c11c")
+		)
+		(pin "2"
+			(uuid "9f932b85-d2fb-4147-9734-8d7a73a9982e")
+		)
+		(instances
+			(project "PWR-MGR-PCB"
+				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -967,16 +1110,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 92.71 105.41 0)
+		(at 92.71 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff851525-ef13-4def-8f5e-3ae02413eed0")
 		(property "Reference" "H5"
-			(at 95.25 104.1399 0)
+			(at 95.25 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -985,7 +1127,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 95.25 106.6799 0)
+			(at 95.25 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1136,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.1mm"
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1154,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1163,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 92.71 105.41 0)
+			(at 92.71 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

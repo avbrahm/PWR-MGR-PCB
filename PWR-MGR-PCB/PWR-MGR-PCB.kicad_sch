@@ -11,8 +11,8 @@
 	)
 	(lib_symbols)
 	(rectangle
-		(start 91.186 73.66)
-		(end 114.046 90.17)
+		(start 84.582 77.724)
+		(end 113.03 94.234)
 		(stroke
 			(width 0)
 			(type default)
@@ -23,8 +23,32 @@
 		(uuid 1834001a-2aa8-47c4-b2ba-d3a90c1f1750)
 	)
 	(rectangle
-		(start 90.932 97.028)
-		(end 113.792 113.538)
+		(start 195.072 100.33)
+		(end 223.52 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c62fb77-0b12-42bd-accf-ccb3a759ba75)
+	)
+	(rectangle
+		(start 195.072 78.994)
+		(end 223.52 95.504)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73f7e860-2fac-4e1e-9e5b-de36a084f6f0)
+	)
+	(rectangle
+		(start 84.582 100.076)
+		(end 113.03 116.586)
 		(stroke
 			(width 0)
 			(type default)
@@ -34,9 +58,9 @@
 		)
 		(uuid e2ac9d1a-c962-45d5-8ce9-f06a8b43093e)
 	)
-	(text "LIPO BATTERY POWER"
+	(text "SINGLE CELL RECHARGABLE \nLIPO BATTERY"
 		(exclude_from_sim no)
-		(at 102.87 100.33 0)
+		(at 99.06 103.378 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,19 +68,29 @@
 		)
 		(uuid "2090d383-9ecf-41cc-bb01-53a202ea2300")
 	)
-	(text "EXTERNAL"
+	(text "USB 2.0\n480 Mbps"
 		(exclude_from_sim no)
-		(at 103.124 67.818 0)
+		(at 209.55 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "58fb7cea-bb90-47f9-914b-09cdcc0d53c8")
+		(uuid "32ca20e8-c092-4e29-bee3-6a2f0879678b")
+	)
+	(text "3.3V Regulated Output\n1.5A - 2A Current Output"
+		(exclude_from_sim no)
+		(at 209.55 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "649ffd7a-374d-4089-a32a-8012b7991562")
 	)
 	(text "5V 0.5-0.9A\n"
 		(exclude_from_sim no)
-		(at 102.87 81.28 0)
+		(at 99.06 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,9 +98,49 @@
 		)
 		(uuid "64f4c9e5-a8ba-419b-a66f-09b2d7ffae28")
 	)
+	(text "EXTERNAL INPUT"
+		(exclude_from_sim no)
+		(at 99.06 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c5a200a-cb46-4c6b-9603-1bda30cf1038")
+	)
+	(text "4.2V Battery Voltage Max\n1.5A Charge Current Max"
+		(exclude_from_sim no)
+		(at 99.06 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e3b285f-0649-4817-9b22-0076b449a45d")
+	)
+	(text "USB-C DATA"
+		(exclude_from_sim no)
+		(at 208.28 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8663daf6-801f-4edd-b08d-74087a48311b")
+	)
+	(text "EXTERNAL OUTPUT"
+		(exclude_from_sim no)
+		(at 209.804 73.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99a105c9-5e44-4490-a7a0-0e241e7659dd")
+	)
 	(text "USB C POWER\n"
 		(exclude_from_sim no)
-		(at 103.124 76.962 0)
+		(at 98.552 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,39 +148,69 @@
 		)
 		(uuid "cf66843f-91fb-4805-b66e-e8e92010f711")
 	)
-	(wire
-		(pts
-			(xy 147.32 86.36) (xy 177.8 86.36)
+	(text "+3.3V"
+		(exclude_from_sim no)
+		(at 208.28 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36cb7e2f-28a1-4eab-8c6a-956fb8b6ebc1")
+		(uuid "d8c49024-4355-4db5-bb36-7941345047dd")
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 177.8 93.98)
+			(xy 148.59 100.33) (xy 163.83 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dfc493b-4b65-44ed-8c12-552d67d00a55")
+		(uuid "242bad84-afe2-4c1e-8de0-2429d678808a")
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 177.8 90.17)
+			(xy 148.59 90.17) (xy 163.83 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "683841e9-4ac7-4106-b22f-0fef90b747ae")
+		(uuid "6b93ce79-0037-4207-9d6f-594385187304")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 163.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab041214-3862-4713-9cad-c2c57d938e44")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b9beae-383d-4533-86dc-7bfeb47363a8")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 163.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1fe3a69-81a2-4ca2-9d18-de2371112642")
 	)
 	(sheet
-		(at 177.8 82.55)
-		(size 22.86 16.51)
+		(at 125.73 86.36)
+		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -120,8 +224,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9a4ce8ea-f122-49e0-9f9a-908eb36e3c79")
-		(property "Sheetname" "Output Ports"
-			(at 177.8 81.8384 0)
+		(property "Sheetname" "Physical_Interface"
+			(at 125.73 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +234,7 @@
 			)
 		)
 		(property "Sheetfile" "output.kicad_sch"
-			(at 177.8 99.6446 0)
+			(at 125.73 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,33 +243,53 @@
 			)
 		)
 		(pin "3.3V" input
-			(at 177.8 93.98 180)
+			(at 148.59 93.98 0)
 			(uuid "daaa176f-7e36-4ac4-85a1-ed0d418d50a1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_D+" input
-			(at 177.8 90.17 180)
+			(at 148.59 87.63 0)
 			(uuid "06f1a749-904c-4e0a-8f4c-3d4db69c9812")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_D-" input
-			(at 177.8 86.36 180)
+			(at 148.59 90.17 0)
 			(uuid "91c14c87-1144-4ff7-83e3-6598705b81ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "BAT-" input
+			(at 148.59 100.33 0)
+			(uuid "78bc2ded-4387-40bb-b4f5-3211da85f75b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT+" input
+			(at 148.59 97.79 0)
+			(uuid "bebaa9a1-37cc-44ba-af6c-5a99e84d757f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -177,8 +301,8 @@
 		)
 	)
 	(sheet
-		(at 127 81.28)
-		(size 20.32 17.78)
+		(at 163.83 85.09)
+		(size 21.59 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -193,7 +317,7 @@
 		)
 		(uuid "aa25d2a4-7317-40e7-833e-e05b81834ee4")
 		(property "Sheetname" "PWR-MGR-01"
-			(at 127 80.5684 0)
+			(at 163.83 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +326,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr-mgr-01.kicad_sch"
-			(at 127 99.6446 0)
+			(at 163.83 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,33 +335,53 @@
 			)
 		)
 		(pin "USB_D+" output
-			(at 147.32 90.17 0)
+			(at 163.83 87.63 180)
 			(uuid "e8b4d157-41d6-4895-b8d8-0e5c29b83cd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "3.3V" output
-			(at 147.32 93.98 0)
+			(at 163.83 93.98 180)
 			(uuid "a5f20850-4a91-4da9-898d-e40a7a58310c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "USB_D-" output
-			(at 147.32 86.36 0)
+			(at 163.83 90.17 180)
 			(uuid "09179a91-633c-4810-9d02-928055734103")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+		(pin "BAT-" input
+			(at 163.83 100.33 180)
+			(uuid "a08ce7e4-fce3-4972-b919-8c61c3ae49f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT+" input
+			(at 163.83 97.79 180)
+			(uuid "6cff776f-2d0d-454d-a53b-8d204c609360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
