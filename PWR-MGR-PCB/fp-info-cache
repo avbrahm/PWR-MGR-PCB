@@ -1,4 +1,11 @@
-26424494630931271
+26450858486373622
+ABS25_32_768KHZ_4_T
+XTAL_ABS25-32.768KHZ-4-T
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,20 @@ audio belton reverb
 0
 7
 7
+BQ24074RGTR
+QFN50P300X300X100-17N
+
+
+0
+22
+22
+BQ24075
+QFN16
+<b>RTE (S-PQFP-N16)</b> 3x3 mm<p>Source: www.ti.com .. tpa6132a2 direct path stereo $.65.pdf
+
+0
+17
+17
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -59219,6 +59240,13 @@ ceramic
 0
 3
 3
+DFE18SAN1ROMEO Inductor
+INDC1608X80N
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -61242,6 +61270,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FerriteBead - MH4532_121Y
+IND_BOURNS_MH4532
+
+MH4532-121Y 
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -68956,6 +68991,13 @@ solder jumper open
 0
 3
 3
+LED - SML_D12U1WT86
+LED_SML-D12U1WT86
+
+
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -74325,13 +74367,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PAM2401
-MSOP8
-<b>8M, 8-Lead, 0.118" Wide, Miniature Small Outline Package</b><p>MSOP<br>8M-Package doc1097.pdf
-
-0
-8
-8
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -96298,6 +96333,13 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+RightAnglePushButton - TL1014BF160QG
+TL1014BF160QG
+<b>TL1014B</b><br>
+
+0
+4
+4
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -96459,6 +96501,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SN74LVC2G14
+SC70-6
+<b>SC70</b> - DCK<p>0.65 mm pitch
+
+0
+6
+6
+SN74LVC2G14
+SOT23-6
+<b>SOT-23</b> - DBV<p>0.95 mm pitch
+
+0
+6
+6
+SS34 - Diode
+DIOM7959X265N
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -98559,6 +98622,34 @@ Logo WEEE
 0
 0
 0
+TPS631011 - Buck Boost Converter
+DSBGA8_YBG_TEX
+
+TPS631011YBGR 
+0
+8
+8
+TPS631011 - Buck Boost Converter
+DSBGA8_YBG_TEX-L
+
+TPS631011YBGR 
+0
+8
+8
+TPS631011 - Buck Boost Converter
+DSBGA8_YBG_TEX-M
+
+TPS631011YBGR 
+0
+8
+8
+TSX_3225_16_0000MF18X_AC0
+XTAL_TSX-3225_16.0000MF18X-AC0
+
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -104824,6 +104915,13 @@ igbt diode module
 0
 25
 25
+USBLC6-2SC6
+SOT95P280X145-6N
+
+
+0
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -105608,3 +105706,10 @@ Varistor VF
 0
 2
 2
+WS450301014042
+450301014042
+450301014042
+Switch
+0
+3
+3
