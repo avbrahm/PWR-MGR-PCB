@@ -314,6 +314,7 @@
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3936b810-e963-4296-b0f0-6796d98f4f62")
 			(effects
 				(font
@@ -500,162 +501,6 @@
 			(layer "F.Fab")
 			(uuid "6dbe3bfd-0d8d-410d-af3c-14cd15b1e5d1")
 		)
-		(fp_text user "1"
-			(at -0.2 -1.5367 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "1e658687-0d84-4825-b26b-9e3aba8c7426")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "A"
-			(at -1.0795 -0.600075 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "b7919e41-dfaa-4d70-be33-c01354644b48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "2"
-			(at 0.2 -1.5367 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "d498b05e-6371-4ba5-a670-c4102948619f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "D"
-			(at -1.0795 0.600075 270)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "d690a8d1-ecd2-4fce-b373-d2fd2fee109a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "2"
-			(at 0.2 -1.5367 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "9a5a1902-fc1b-4a77-afae-be3063f3d4cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "A"
-			(at -1.0795 -0.600075 270)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "a9973b7c-c305-40a0-8f26-7d8793f4ebda")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "D"
-			(at -1.0795 0.600075 270)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "d55d13d1-3f72-41ff-96ae-12d5b10ac98d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -0.2 -1.5367 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "e99f2967-fe62-41bf-838e-5b1efbd5339a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "D"
-			(at -1.0795 0.600075 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2cfa2018-92db-462c-aa6f-3367e216e5cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "1"
-			(at -0.2 -1.5367 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4bab7fa4-7484-47a0-b152-01138bd48380")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "2"
-			(at 0.2 -1.5367 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "57ea1db0-b371-4961-95dc-451f750b69f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "9b9cb7e1-e29c-4db4-86c6-439685d316e6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "A"
-			(at -1.0795 -0.600075 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "d269c078-0e2f-47c2-b444-477a51ba4cfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "A1" smd circle
 			(at -0.2 -0.600075 270)
 			(size 0.2032 0.2032)
@@ -750,7 +595,8 @@
 		(property "Reference" "R7"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
-			(uuid "e30a4912-ffa2-4735-bc56-ba96454ffb82")
+			(hide yes)
+			(uuid "8de42bc8-47b6-4909-a7fd-0c0ce656cb8c")
 			(effects
 				(font
 					(size 1 1)
@@ -762,7 +608,7 @@
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f45933a-6b58-491b-bdb7-d1cd1bf59535")
+			(uuid "9267ae3c-cbec-4be4-8061-a117bf7bac20")
 			(effects
 				(font
 					(size 1 1)
@@ -774,7 +620,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "215d55dc-920c-46d7-9980-df5cd7bdb0cb")
+			(uuid "156738e6-357e-4e63-830c-cd1ee607a52d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -786,7 +632,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "461dc00a-7791-48ce-aea5-b2de1550ddba")
+			(uuid "f5ca2e02-db84-479c-b5c1-f020e116b781")
 			(effects
 				(font
 					(size 1.27 1.27)
