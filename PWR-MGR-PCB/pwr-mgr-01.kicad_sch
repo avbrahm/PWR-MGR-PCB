@@ -3502,7 +3502,7 @@
 		)
 		(uuid f0706c95-3de0-40f9-a389-a667ddd266a5)
 	)
-	(text "I Max = 1.3A\nSafety Timer set to 6.25 hr\nSupply Voltage 5V"
+	(text "Input Current Limit = 1.3A\nSafety Timer = 6.25 hr\nSupply Voltage = 5V\nCharge current = 0.8A"
 		(exclude_from_sim no)
 		(at 145.288 183.134 0)
 		(effects
@@ -6607,7 +6607,7 @@
 			(uuid "bedf0c80-4cfc-4d05-8770-b0132404b056")
 		)
 		(instances
-			(project ""
+			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
 					(reference "NT1")
 					(unit 1)
@@ -6929,7 +6929,7 @@
 			(uuid "d1ec9f3b-f9b7-4b56-929d-7331c1ba6181")
 		)
 		(instances
-			(project ""
+			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
 					(reference "U1")
 					(unit 1)
