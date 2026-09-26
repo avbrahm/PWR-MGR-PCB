@@ -180,6 +180,36 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 102.87) (xy 163.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eee7ecf-6a95-4e09-bd9f-83974aa8c79f")
+	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 163.83 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437b50f2-0aae-4322-91c9-98582461d76e")
+	)
+	(wire
+		(pts
+			(xy 148.59 115.57) (xy 163.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f952bbc-0245-4ab1-967d-b690f2dccd8c")
+	)
+	(wire
+		(pts
 			(xy 148.59 90.17) (xy 163.83 90.17)
 		)
 		(stroke
@@ -187,6 +217,16 @@
 			(type default)
 		)
 		(uuid "6b93ce79-0037-4207-9d6f-594385187304")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 163.83 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e64b2d-8ecd-4b45-b244-b8038d1eb7c4")
 	)
 	(wire
 		(pts
@@ -220,7 +260,7 @@
 	)
 	(sheet
 		(at 125.73 86.36)
-		(size 22.86 26.67)
+		(size 22.86 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -246,7 +286,7 @@
 			)
 		)
 		(property "Sheetfile" "output.kicad_sch"
-			(at 125.73 113.6146 0)
+			(at 125.73 123.7746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -316,6 +356,46 @@
 				(justify right)
 			)
 		)
+		(pin "PGOOD_N" input
+			(at 148.59 110.49 0)
+			(uuid "8abbf00a-4084-445f-8f4b-aed68d737896")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG_N" input
+			(at 148.59 113.03 0)
+			(uuid "c9259b70-b471-4e40-b691-98cba57e423a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ENABLE" input
+			(at 148.59 115.57 0)
+			(uuid "c87fc2d0-7277-4ee6-9bb2-789b10e0b26a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SENSE" input
+			(at 148.59 102.87 0)
+			(uuid "d30d1b73-3c4e-4aac-b7eb-b1ec1f0cfce3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710"
@@ -326,7 +406,7 @@
 	)
 	(sheet
 		(at 163.83 85.09)
-		(size 21.59 27.94)
+		(size 21.59 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -352,7 +432,7 @@
 			)
 		)
 		(property "Sheetfile" "pwr-mgr-01.kicad_sch"
-			(at 163.83 113.6146 0)
+			(at 163.83 123.7746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -415,6 +495,46 @@
 		(pin "5V" output
 			(at 163.83 106.68 180)
 			(uuid "fd01e1cc-09d8-49d3-9d5c-37d0dbcdc0a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG_N" input
+			(at 163.83 113.03 180)
+			(uuid "5dd286a2-56d4-44ad-8176-f778207ec14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PGOOD_N" input
+			(at 163.83 110.49 180)
+			(uuid "823ba6f8-1065-4412-b302-05f42e42c895")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_ENABLE" input
+			(at 163.83 115.57 180)
+			(uuid "2be39417-501e-401d-bd1d-ad48ac5628fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBAT_SENSE" input
+			(at 163.83 102.87 180)
+			(uuid "394256fe-d603-4af5-b96b-8f7055dc3bf7")
 			(effects
 				(font
 					(size 1.27 1.27)
