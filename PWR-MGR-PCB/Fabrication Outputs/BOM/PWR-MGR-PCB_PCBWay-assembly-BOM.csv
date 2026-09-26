@@ -1,0 +1,24 @@
+Item,Designator,Qty,Manufacturer,Mfg Part Number,Description / Value,Package / Footprint,Mount Type,Assembly Instruction
+1,U6,1,Texas Instruments,TPS631011YBGR,"Buck-boost converter, TPS631011","DSBGA-8 (YBG), 0.4mm pitch BGA",SMT,ASSEMBLE (PCBWay to source and place)
+2,U1,1,Texas Instruments,BQ24075RGTR,"Li-Ion battery charger, BQ24075",QFN-16 w/ exposed pad,SMT,ASSEMBLE (recommended - QFN exposed pad; change to Do Not Assemble if hand-soldering with hot air)
+3,C3,1,Samsung Electro-Mechanics,CL21B104KBCNNNC,100nF 50V X7R,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+4,"C4,C6",2,Samsung Electro-Mechanics,CL21B475KLB6PJE,4.7uF 35V X7R,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+5,C5,1,Samsung Electro-Mechanics,CL21B105KBFNNNE,1uF 50V X7R,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+6,C9,1,Kyocera AVX,KGM21AT70J226MU,22uF 6.3V X7T,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+7,C10,1,Yageo,CC0805MKX5R6BB476,47uF 10V X5R,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+8,R1,1,Panasonic,ERJ-U06D1181V,1.18k 0.5% anti-sulfur,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+9,R2,1,Panasonic,ERA-6AEB1131V,1.13k 0.1% thin film,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+10,R3,1,Panasonic,ERA-6AED4642V,46.4k 0.5%,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+11,"R4,R7",2,Panasonic,ERA-6AEB103V,10k 0.1% thin film,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+12,"R5,R6",2,Yageo,RC0805FR-071K5L,1.5k 1%,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+13,"R12,R13",2,Panasonic,ERA-6ARB512V,5.1k 0.1%,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+14,R17,1,Panasonic,ERA-6ARB913V,91k 0.1%,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+15,R18,1,Bourns,CR0805-FX-5113ELF,511k 1%,805,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+16,L2,1,Murata,DFE18SAN1R0ME0L,1uH 20% shielded inductor,1608 (0603 inch),SMT,DO NOT ASSEMBLE - hand-soldered by customer
+17,"D1,D2",2,ROHM,SML-D12U1WT86,LED,603,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+18,D3,1,Multiple (e.g. Vishay SS34-E3/57T),SS34,Schottky diode 40V 3A,SMA (DO-214AC),SMT,DO NOT ASSEMBLE - hand-soldered by customer
+19,"J1,J2",2,JST,B2B-XH-A(LF)(SN),"Header, JST-XH 2-pos 2.5mm","Through-hole, vertical",THT,DO NOT ASSEMBLE - hand-soldered by customer
+20,J3,1,GCT,USB4105-GF-A,"USB-C receptacle, USB 2.0, 16P","SMT top-mount, horizontal",SMT,ASSEMBLE (PCBWay to source and place)
+21,J5,1,Samtec,TMM-102-02-T-S,"Header, 2-pos 2mm vertical","Through-hole, vertical",THT,DO NOT ASSEMBLE - hand-soldered by customer
+22,U5,1,STMicroelectronics,USBLC6-2SC6,"ESD protection, 2-line",SOT-23-6,SMT,DO NOT ASSEMBLE - hand-soldered by customer
+23,"H5,H6,H7,H8",4,-,-,"Mounting hole, 2.1mm, no connection",MountingHole 2.1mm,-,NO PART - mechanical hole only

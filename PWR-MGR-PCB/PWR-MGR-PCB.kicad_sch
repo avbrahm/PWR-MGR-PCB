@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "16b2e4e2-6399-42b6-a8e6-a11780888710")
 	(paper "A4")
 	(title_block
@@ -20,7 +20,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 1834001a-2aa8-47c4-b2ba-d3a90c1f1750)
+		(uuid "1834001a-2aa8-47c4-b2ba-d3a90c1f1750")
 	)
 	(rectangle
 		(start 195.072 100.33)
@@ -32,7 +32,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4c62fb77-0b12-42bd-accf-ccb3a759ba75)
+		(uuid "4c62fb77-0b12-42bd-accf-ccb3a759ba75")
 	)
 	(rectangle
 		(start 195.072 78.994)
@@ -44,7 +44,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 73f7e860-2fac-4e1e-9e5b-de36a084f6f0)
+		(uuid "73f7e860-2fac-4e1e-9e5b-de36a084f6f0")
 	)
 	(rectangle
 		(start 84.582 100.076)
@@ -56,7 +56,7 @@
 		(fill
 			(type none)
 		)
-		(uuid e2ac9d1a-c962-45d5-8ce9-f06a8b43093e)
+		(uuid "e2ac9d1a-c962-45d5-8ce9-f06a8b43093e")
 	)
 	(text "SINGLE CELL RECHARGABLE \nLIPO BATTERY"
 		(exclude_from_sim no)
@@ -160,6 +160,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 106.68) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1522304c-8da2-46bb-9307-a4cc1ba5e076")
+	)
+	(wire
+		(pts
 			(xy 148.59 100.33) (xy 163.83 100.33)
 		)
 		(stroke
@@ -210,7 +220,7 @@
 	)
 	(sheet
 		(at 125.73 86.36)
-		(size 22.86 17.78)
+		(size 22.86 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -221,11 +231,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9a4ce8ea-f122-49e0-9f9a-908eb36e3c79")
 		(property "Sheetname" "Physical_Interface"
 			(at 125.73 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,7 +246,9 @@
 			)
 		)
 		(property "Sheetfile" "output.kicad_sch"
-			(at 125.73 104.7246 0)
+			(at 125.73 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -292,6 +306,16 @@
 				(justify right)
 			)
 		)
+		(pin "5V" input
+			(at 148.59 106.68 0)
+			(uuid "b6fd02d5-55c2-4eee-9d43-4ce8bdf38789")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710"
@@ -302,7 +326,7 @@
 	)
 	(sheet
 		(at 163.83 85.09)
-		(size 21.59 19.05)
+		(size 21.59 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -313,11 +337,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "aa25d2a4-7317-40e7-833e-e05b81834ee4")
 		(property "Sheetname" "PWR-MGR-01"
 			(at 163.83 84.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +352,9 @@
 			)
 		)
 		(property "Sheetfile" "pwr-mgr-01.kicad_sch"
-			(at 163.83 104.7246 0)
+			(at 163.83 113.6146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,6 +405,16 @@
 		(pin "BAT+" input
 			(at 163.83 97.79 180)
 			(uuid "6cff776f-2d0d-454d-a53b-8d204c609360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" output
+			(at 163.83 106.68 180)
+			(uuid "fd01e1cc-09d8-49d3-9d5c-37d0dbcdc0a6")
 			(effects
 				(font
 					(size 1.27 1.27)
