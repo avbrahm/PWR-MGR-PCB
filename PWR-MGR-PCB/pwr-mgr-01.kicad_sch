@@ -1457,148 +1457,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4727,16 +4585,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 146.05) (xy 102.87 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "758082da-43c8-443c-9eca-cc52f088a1e0")
-	)
-	(wire
-		(pts
 			(xy 57.15 130.81) (xy 55.88 130.81)
 		)
 		(stroke
@@ -5027,7 +4875,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 143.51) (xy 105.41 144.78)
+			(xy 105.41 143.51) (xy 105.41 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5227,16 +5075,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 149.86) (xy 105.41 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46ea300-54b3-412b-bcb0-47fe9efa3a19")
-	)
-	(wire
-		(pts
 			(xy 254 132.08) (xy 254 133.35)
 		)
 		(stroke
@@ -5404,6 +5242,16 @@
 			(type default)
 		)
 		(uuid "f94174b6-1d01-44a1-807b-8aed8a240883")
+	)
+	(wire
+		(pts
+			(xy 102.87 146.05) (xy 105.41 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cd4f25-7f25-424a-bc7b-ec97113acf71")
 	)
 	(wire
 		(pts
@@ -6328,7 +6176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFE252012P-1R0M=P2:INDC2520X120N"
+		(property "Footprint" "DFE252012P_1R0M_P2:INDC2520X120N"
 			(at 234.95 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +7562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DFE252012P-1R0M=P2:INDC2520X120N"
+		(property "Footprint" "DFE252012P_1R0M_P2:INDC2520X120N"
 			(at 232.41 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8627,87 +8475,6 @@
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 105.41 147.32 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "710842cd-f126-41a5-8f19-06dc35b8db95")
-		(property "Reference" "NT1"
-			(at 103.632 141.986 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 107.442 141.986 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 105.41 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fb444190-1993-48f7-992a-4bd4d9a474d8")
-		)
-		(pin "1"
-			(uuid "bedf0c80-4cfc-4d05-8770-b0132404b056")
-		)
-		(instances
-			(project "PWR-MGR-PCB"
-				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
