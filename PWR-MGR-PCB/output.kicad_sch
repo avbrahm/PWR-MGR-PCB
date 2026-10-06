@@ -489,6 +489,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ebcdec-f313-4f66-b7c9-54837b4efac2")
+	)
+	(wire
+		(pts
 			(xy 151.13 63.5) (xy 154.94 63.5)
 		)
 		(stroke
@@ -516,6 +526,16 @@
 			(type default)
 		)
 		(uuid "38617da2-3ec1-45d9-9fba-747d20056d02")
+	)
+	(wire
+		(pts
+			(xy 151.13 74.93) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b32838-1d57-49dd-ba81-0e2414cd86ae")
 	)
 	(wire
 		(pts
@@ -599,16 +619,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 154.94 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af840b64-f16f-416a-be81-1017cdbb1c14")
-	)
-	(wire
-		(pts
 			(xy 101.6 66.04) (xy 110.49 66.04)
 		)
 		(stroke
@@ -646,36 +656,6 @@
 			(type default)
 		)
 		(uuid "d579a306-2ece-4f9a-abff-988de480db40")
-	)
-	(wire
-		(pts
-			(xy 177.8 101.6) (xy 186.69 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6b9b7de-7c21-4257-a1d5-c8ccfde6a810")
-	)
-	(wire
-		(pts
-			(xy 151.13 74.93) (xy 154.94 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc682477-4801-4474-b4bf-bccfd68b01c3")
-	)
-	(wire
-		(pts
-			(xy 101.6 63.5) (xy 109.22 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3991f4f-4314-4982-b5a2-fd9bf3bc3795")
 	)
 	(wire
 		(pts
@@ -733,7 +713,7 @@
 	)
 	(hierarchical_label "VBAT_SENSE"
 		(shape input)
-		(at 154.94 74.93 0)
+		(at 154.94 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -774,17 +754,6 @@
 			(justify left)
 		)
 		(uuid "60f994b2-afdd-4759-96c2-b24afa80596a")
-	)
-	(hierarchical_label "3.3V"
-		(shape input)
-		(at 109.22 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "74c4fe46-a8da-4278-96c9-03cb626a6eda")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -832,7 +801,7 @@
 	)
 	(hierarchical_label "5V_ENABLE"
 		(shape input)
-		(at 154.94 71.12 0)
+		(at 154.94 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1001,83 +970,6 @@
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 96.52 63.5 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ff06b0f-1bb1-4e3c-9bf6-77128d4c24b0")
-		(property "Reference" "J4"
-			(at 94.996 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 97.155 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Footprints:Drilled_Solder_Pad_0.6mm_3x1mm"
-			(at 96.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 96.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b1f2299-1aeb-42f7-b342-e773a8d88ea5")
-		)
-		(instances
-			(project "PWR-MGR-PCB"
-				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1799,83 +1691,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 172.72 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75b3ad16-2030-4a9e-93dd-3ca2022e3132")
-		(property "Reference" "J25"
-			(at 170.434 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Socket"
-			(at 173.355 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Footprints:Drilled_Solder_Pad_0.6mm_3x1mm"
-			(at 172.72 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 172.72 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e1e1ef1-1da6-47d5-9cbe-08e00118d2b0")
-		)
-		(instances
-			(project "PWR-MGR-PCB"
-				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
-					(reference "J25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
 		(at 96.52 105.41 180)
 		(unit 1)
 		(body_style 1)
@@ -2343,84 +2158,6 @@
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a5e9e8e-0612-447c-962e-df9656974c6e")
-		(property "Reference" "#PWR034"
-			(at 186.69 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b3496f4-b54c-42a9-8db5-a9012e8e6067")
-		)
-		(instances
-			(project "PWR-MGR-PCB"
-				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/9a4ce8ea-f122-49e0-9f9a-908eb36e3c79"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)

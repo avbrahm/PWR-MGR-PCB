@@ -6316,7 +6316,6 @@
 		(uuid "1f4d6fb8-46b8-4a2a-97e9-b9111c3230cc")
 		(property "Reference" "R6"
 			(at 60.96 128.524 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
