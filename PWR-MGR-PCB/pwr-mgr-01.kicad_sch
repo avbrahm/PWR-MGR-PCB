@@ -3765,6 +3765,16 @@
 		)
 		(uuid "2d16a1ad-0349-4a7e-ab31-daaf06a79d04")
 	)
+	(text "R4B1 is an alternate location for a thermistor.\nDo not populate BOTH R4 and R4B1 at the same time."
+		(exclude_from_sim no)
+		(at 131.064 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4103bf4e-bace-4883-9fae-9e7edcb00c97")
+	)
 	(text "Buck Boost Converter\n5V Rail"
 		(exclude_from_sim no)
 		(at 213.868 120.396 0)
@@ -3908,6 +3918,12 @@
 		(uuid "9ef4a629-7f0b-4b20-a720-0c8dbae798c5")
 	)
 	(junction
+		(at 64.77 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5060d2d-18ee-4adf-a899-8b9e6caff2cc")
+	)
+	(junction
 		(at 86.36 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3930,6 +3946,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf9cbc2f-4fbb-4bb0-ad5a-aad004bc3714")
+	)
+	(junction
+		(at 57.15 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc01b307-f5b1-4d71-8d5d-7fdf613a6435")
 	)
 	(junction
 		(at 60.96 146.05)
@@ -4865,6 +4887,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 161.29) (xy 57.15 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f84dcfa-f694-44cd-900a-5449dea3c7b9")
+	)
+	(wire
+		(pts
 			(xy 102.87 151.13) (xy 109.22 151.13)
 		)
 		(stroke
@@ -4962,6 +4994,16 @@
 			(type default)
 		)
 		(uuid "af38d389-2c06-49c8-917c-a7165cfdc03c")
+	)
+	(wire
+		(pts
+			(xy 64.77 161.29) (xy 64.77 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e1d97a-b192-4750-8d23-22252700e2f1")
 	)
 	(wire
 		(pts
@@ -5475,7 +5517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0164d5fe-c5bc-4e74-83ae-db9259543663")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR032"
 			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5535,7 +5577,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR01")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5594,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "017c3427-e93b-4076-ad0c-9440a7863947")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 114.3 136.906 90)
 			(hide yes)
 			(show_name no)
@@ -5626,7 +5668,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c5a13c-7dcc-4f16-9e78-184e3defd394")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 60.96 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -5704,7 +5746,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5721,7 +5763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ce9ea75-2cc4-4b99-8262-1095ba48ecb2")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 29.21 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5796,7 +5838,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5813,7 +5855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f3fc540-6398-449b-ab53-a9c27d03fd67")
-		(property "Reference" "R20"
+		(property "Reference" "R16"
 			(at 238.76 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +5928,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R20")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5904,7 +5946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15ada5fe-a635-42d8-af18-d8bac467dcaf")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 205.74 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6045,7 +6087,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6063,7 +6105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181a6845-d043-46a8-b857-21c9373916d7")
-		(property "Reference" "C14"
+		(property "Reference" "C9"
 			(at 257.81 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,7 +6180,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C14")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6156,7 +6198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "183d3a60-ebb0-4d1e-826b-599fb0ad86a4")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 234.95 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6219,7 +6261,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6237,7 +6279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7ccbc0-a2b7-4562-91f5-f83706045278")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR040"
 			(at 223.52 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -6297,7 +6339,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR047")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6314,7 +6356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f4d6fb8-46b8-4a2a-97e9-b9111c3230cc")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 60.96 128.524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,7 +6429,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6404,7 +6446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21813843-acce-4976-8298-224ee8679adb")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 168.656 144.526 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6521,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "219cb87d-b454-423c-bdbb-9c4187211b04")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 171.196 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6571,7 +6613,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6588,7 +6630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "220795cd-06ba-40fd-bf1c-15d32af59dc4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR034"
 			(at 172.72 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6649,7 +6691,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR041")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6666,7 +6708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2598746f-8d86-4ec2-9f9c-236cbb02f239")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 54.61 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6678,7 +6720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.864 162.306 0)
+			(at 54.61 162.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6726,7 +6768,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6744,7 +6786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29958ce3-4a76-4045-9bf1-46df8e905609")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 255.27 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6819,7 +6861,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C12")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6837,7 +6879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e885a11-52b7-4095-bdb3-dc8fc612487e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR044"
 			(at 247.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6897,7 +6939,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR011")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6915,7 +6957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331005e8-79b5-471c-9a67-37ecbdbfbed4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR028"
 			(at 119.38 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6975,7 +7017,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR052")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6993,7 +7035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af20cca-bb46-4ea9-9137-4df941379e16")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 54.61 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7053,7 +7095,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7070,7 +7112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b1b5119-7dbc-44fc-9092-e5cc166a80cb")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR039"
 			(at 193.04 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7130,7 +7172,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR056")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -7148,7 +7190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4787fb2a-a562-4a7e-9180-bcc2701f09c4")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 57.785 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7209,7 +7251,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7227,7 +7269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48633f5b-2ead-4f97-88a5-991b6208478f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR036"
 			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7287,7 +7329,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR043")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7305,7 +7347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b054888-08a6-4f1f-bec2-cbc77aaec3bb")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 91.44 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7367,7 +7409,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7385,7 +7427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce2a5f6-7568-497d-8d7c-74a69ef4c58a")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR014"
 			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7445,7 +7487,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR054")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7463,7 +7505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ddcd9f9-c0e1-4ae3-9601-c760f967f91d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR041"
 			(at 226.06 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +7565,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR050")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7541,7 +7583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e420680-75b6-4f9d-81df-4f545bbbfbab")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 232.41 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +7646,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -7621,7 +7663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f3d76cf-15aa-4b63-be95-e2487442c366")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR048"
 			(at 254 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7681,7 +7723,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR051")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57e6c5c0-29c9-4a2e-9ad5-9a738b58229d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR020"
 			(at 85.09 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +7800,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR03")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7776,7 +7818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616c2c7d-7517-4a08-9720-be41d913e21d")
-		(property "Reference" "J3"
+		(property "Reference" "J23"
 			(at 53.34 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7888,7 +7930,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "J3")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -7905,7 +7947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64071e95-e477-439a-806b-eea76d560ec4")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR018"
 			(at 76.2 127 0)
 			(hide yes)
 			(show_name no)
@@ -7965,7 +8007,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR055")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7983,7 +8025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f7ebe9-51f1-4fad-a042-307aaabcdc07")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 78.74 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8056,7 +8098,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8074,7 +8116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cce2f00-1241-4211-886e-380f4c69407b")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 208.28 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8257,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8232,7 +8274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ee0c5c8-5492-40c0-86c8-a070c0065ebb")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 77.978 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +8347,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8322,7 +8364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7017ecf8-d21f-48e5-b376-c9f98f0a4c99")
-		(property "Reference" "R19"
+		(property "Reference" "R15"
 			(at 238.76 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8395,7 +8437,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R19")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8413,7 +8455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ce9f45-a364-42b6-8871-f66c58c261c6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR035"
 			(at 175.26 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8515,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR048")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8490,7 +8532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7273406b-708e-4f03-8497-cc4292e5666a")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 105.41 131.572 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8613,7 +8655,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8631,7 +8673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a37b8c-dc55-438f-90f8-d24a9fbabfda")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR049"
 			(at 256.54 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8691,7 +8733,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR08")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8708,7 +8750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73e4f95a-d8c3-4457-8e9d-b1b6bc8a63a4")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR037"
 			(at 186.69 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -8768,7 +8810,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR049")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9020,7 +9062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77ae54aa-97a3-42af-a5f3-fc8e1d2b3518")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 69.85 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9185,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c0ee531-726c-46b4-87e0-9f253551ec6f")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 101.346 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9233,7 +9275,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9250,7 +9292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ddcd703-e349-4f5f-8b63-b03869d7ea0b")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR025"
 			(at 99.06 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9310,7 +9352,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR053")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9327,7 +9369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80c6daa7-0d5d-48cb-9903-55713f92390e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR010"
 			(at 44.45 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9387,7 +9429,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR025")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9405,7 +9447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80fccf32-d054-4d91-8a61-19a6dccebf02")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 254 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9465,7 +9507,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9502,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 60.96 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -9572,7 +9614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89f2d1a7-cf8f-43d0-a563-314cf2cb1516")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR038"
 			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9632,7 +9674,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR044")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9650,7 +9692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aaa5b87-8d62-42b8-851b-ef7be3f19ba0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 114.3 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9710,7 +9752,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9727,7 +9769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2e08c3-557b-4fa5-bac9-f60e66412d17")
-		(property "Reference" "R15"
+		(property "Reference" "R1"
 			(at 41.656 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9800,7 +9842,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R15")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9818,7 +9860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca252fa-5028-498e-8a16-4d22ac992ad8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 91.44 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9878,7 +9920,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9895,7 +9937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8fad4a49-6056-4a04-88ba-99b43128e70c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 251.46 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9955,7 +9997,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9973,7 +10015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9311857f-48ac-4743-9b96-0589acf9a0f5")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 76.2 62.865 0)
 			(hide yes)
 			(show_name no)
@@ -10033,7 +10075,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10051,7 +10093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95098050-c2bc-403b-bf92-db1009c047f2")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR030"
 			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10111,7 +10153,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR057")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10128,7 +10170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "988d9f8c-e1b1-4486-a344-ec637224c4ca")
-		(property "Reference" "R21"
+		(property "Reference" "R17"
 			(at 241.3 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10201,7 +10243,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R21")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10218,7 +10260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c34088c-838e-43da-a7f1-59c88bb686bd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR09"
 			(at 25.4 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10320,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR024")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10296,7 +10338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ef88344-8393-439c-9f8a-711dc2737b2b")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 59.055 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10357,7 +10399,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10374,7 +10416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0a705e9-0de8-43e4-b18f-5487771e13db")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 107.95 163.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10447,7 +10489,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10464,7 +10506,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0da4302-335a-4805-a74e-981744022d19")
-		(property "Reference" "R22"
+		(property "Reference" "R18"
 			(at 241.3 150.368 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10537,7 +10579,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R22")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -10554,7 +10596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4eb011f-5524-4a6c-8ffc-287adb7b913b")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 41.656 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +10669,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10644,7 +10686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa92d221-b5be-4184-b55d-8e66a6f755c9")
-		(property "Reference" "R2"
+		(property "Reference" "R10"
 			(at 94.996 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,7 +10759,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R2")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10734,7 +10776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab2ad05d-42a0-4e8f-9a22-19a02b0e6c10")
-		(property "Reference" "R9"
+		(property "Reference" "R5"
 			(at 78.486 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10807,7 +10849,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R9")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10825,7 +10867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac935fff-351c-4d22-8b83-47396736360c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR024"
 			(at 96.52 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10885,7 +10927,97 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR029")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 161.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b05ec32f-2dd7-467b-9769-cf661cb9d253")
+		(property "Reference" "R4B1"
+			(at 60.96 159.258 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 60.96 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 163.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MCU0805MD1002BP500 "
+			(at 60.96 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f215c59-bab8-481b-b6e0-2014aba6388b")
+		)
+		(pin "2"
+			(uuid "42b58e3a-8e35-4c91-8c06-b9dbb7921f2c")
+		)
+		(instances
+			(project "PWR-MGR-PCB"
+				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
+					(reference "R4B1")
 					(unit 1)
 				)
 			)
@@ -10902,7 +11034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb63e735-0e73-4719-9920-3043793ed27e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR045"
 			(at 247.65 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10962,7 +11094,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR020")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10980,7 +11112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8d7e91-5a3f-47fa-aceb-6350adab301d")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 118.11 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +11187,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -11073,7 +11205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebfd947-a89f-474a-9210-32fe526c6ed2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR021"
 			(at 86.36 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -11133,7 +11265,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR027")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11151,7 +11283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bee4fb1b-6c19-452b-9676-658d0f9b7d35")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 53.34 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -11211,7 +11343,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11228,7 +11360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf6a4928-122e-4dfa-9d33-092b80255081")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 127.762 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,7 +11450,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11335,7 +11467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c176ed84-f7ee-45eb-95c2-d61b7d0f1eff")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR042"
 			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11395,7 +11527,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR017")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11412,7 +11544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc7512b2-8526-4e39-9d1c-cb261c22f2f1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR023"
 			(at 92.71 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +11604,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR02")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd0f95c7-659e-4fef-b008-7f3cef433ae9")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR016"
 			(at 60.96 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11549,7 +11681,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR010")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11567,7 +11699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11b3fde-f409-4564-8ff8-8c07329a6607")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -11627,7 +11759,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11644,7 +11776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3f592f2-0d65-401f-a255-7f5b89fa8d1b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR029"
 			(at 124.46 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11705,7 +11837,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR013")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11722,7 +11854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d678ef5a-3cf9-4f26-9b76-5d86ce1551d3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR043"
 			(at 245.11 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11782,7 +11914,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR018")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11799,7 +11931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dae6dcf6-283d-4a97-bb76-1e2381c7cbbe")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 141.986 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11874,7 +12006,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11891,7 +12023,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc3719a5-ce6b-45ec-9dd5-879ac14bf47f")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 195.326 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11964,7 +12096,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -11982,7 +12114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3443cd6-8c1e-4597-b143-0dbbba9d384a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 60.96 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -12042,7 +12174,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12059,7 +12191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8ebcb3d-51b2-422a-80a7-5455432d0247")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 54.61 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12134,7 +12266,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12151,7 +12283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eaa68a84-31d3-4bb3-ae32-3b3f5905b017")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR033"
 			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12212,7 +12344,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR040")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12229,7 +12361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eac6f864-e882-4fa5-9ab5-fe4c9ed94487")
-		(property "Reference" "R1"
+		(property "Reference" "R8"
 			(at 83.058 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12302,7 +12434,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12319,7 +12451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee76fce9-dd67-4b8e-8e49-3de42b73d204")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR027"
 			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12379,7 +12511,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR015")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12397,7 +12529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f26e380c-6dfc-4a84-9661-04a4c7716781")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 64.77 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12472,7 +12604,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12490,7 +12622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60f1b6c-0425-49ed-a7b9-649c473161f7")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 87.63 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12563,7 +12695,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12580,7 +12712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fec807fc-540c-4cad-b7a4-81971a8e5ff9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR019"
 			(at 80.01 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -12640,7 +12772,7 @@
 		(instances
 			(project "PWR-MGR-PCB"
 				(path "/16b2e4e2-6399-42b6-a8e6-a11780888710/aa25d2a4-7317-40e7-833e-e05b81834ee4"
-					(reference "#PWR04")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
